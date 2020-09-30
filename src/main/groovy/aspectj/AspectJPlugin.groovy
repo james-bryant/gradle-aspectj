@@ -141,7 +141,6 @@ class Ajc extends DefaultTask {
 
         def iajcArgs = [classpath           : sourceSet.compileClasspath.asPath,
                         destDir             : sourceSet.java.outputDir.absolutePath,
-                        s                   : sourceSet.java.outputDir.absolutePath,
                         source              : project.convention.plugins.java.sourceCompatibility,
                         target              : project.convention.plugins.java.targetCompatibility,
                         inpath              : ajInpath.asPath,
