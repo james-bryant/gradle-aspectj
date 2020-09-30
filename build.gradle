@@ -86,3 +86,6 @@ wrapper {
     gradleVersion = '6.0'
     distributionType = 'ALL'
 }
+
+// keep Java 8 downward compatibility of the generated artifact
+targetCompatibility = JavaVersion.VERSION_1_8
